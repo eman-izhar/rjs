@@ -6,10 +6,10 @@ const user = 'Me'
   return (
  
     <div>
+      <Nav/> 
       <h1>Hi! {user}</h1>
+      <Card user={user} />
       <Card/>
-      <Card/>
-      <Nav/>
     </div>
   )
 };
