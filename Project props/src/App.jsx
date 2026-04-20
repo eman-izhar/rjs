@@ -5,7 +5,7 @@ import Card from "./components/Card"
 const App = () => {
   const jobs = [
   {
-    brandLogo: "https://logo.clearbit.com/google.com",
+    brandLogo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuN5123uqVNfPq9ZaJQ8jlYpce9HeIuTVQTw&s",
     companyName: "Google",
     datePosted: "2 days ago",
     post: "Frontend Developer",
@@ -15,7 +15,7 @@ const App = () => {
     location: "USA"
   },
   {
-    brandLogo: "https://logo.clearbit.com/apple.com",
+    brandLogo: "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg",
     companyName: "Apple",
     datePosted: "5 days ago",
     post: "UI/UX Designer",
@@ -25,7 +25,7 @@ const App = () => {
     location: "California, USA"
   },
   {
-    brandLogo: "https://logo.clearbit.com/amazon.com",
+    brandLogo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR7xbUVkLMh7-sCFxaXARD8-i9J68CjcPQnw&s",
     companyName: "Amazon",
     datePosted: "1 week ago",
     post: "Backend Engineer",
@@ -35,7 +35,7 @@ const App = () => {
     location: "Remote"
   },
   {
-    brandLogo: "https://logo.clearbit.com/meta.com",
+    brandLogo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Meta_Platforms_Inc._logo_%28cropped%29.svg/3840px-Meta_Platforms_Inc._logo_%28cropped%29.svg.png",
     companyName: "Meta",
     datePosted: "3 days ago",
     post: "React Developer",
@@ -45,7 +45,7 @@ const App = () => {
     location: "Canada"
   },
   {
-    brandLogo: "https://logo.clearbit.com/netflix.com",
+    brandLogo: "https://cdn.mos.cms.futurecdn.net/v2/t:0,l:286,cw:736,ch:736,q:80,w:736/BDvqkcvVLHBu6xZ5yaN7jQ.jpg",
     companyName: "Netflix",
     datePosted: "6 days ago",
     post: "Full Stack Developer",
@@ -55,7 +55,7 @@ const App = () => {
     location: "USA"
   },
   {
-    brandLogo: "https://logo.clearbit.com/microsoft.com",
+    brandLogo: "https://yt3.googleusercontent.com/qgSeLfJk2OKnQicVDvc_VSlSISmAmWVHYtmSTckcC_iUn7hVfpURctMAqoSz0u4xfER6rlKDBA=s900-c-k-c0x00ffffff-no-rj",
     companyName: "Microsoft",
     datePosted: "4 days ago",
     post: "Software Engineer",
@@ -65,7 +65,7 @@ const App = () => {
     location: "UK"
   },
   {
-    brandLogo: "https://logo.clearbit.com/tesla.com",
+    brandLogo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7vvZM_ZeV3PXWQrnV9PU5tPp-axrVNFxVdA&s",
     companyName: "Tesla",
     datePosted: "2 days ago",
     post: "Embedded Systems Engineer",
@@ -75,7 +75,7 @@ const App = () => {
     location: "Germany"
   },
   {
-    brandLogo: "https://logo.clearbit.com/adobe.com",
+    brandLogo: "https://media.licdn.com/dms/image/v2/D560BAQHilaKdJueUVg/company-logo_200_200/B56ZodIp56HUAM-/0/1761425400480?e=2147483647&v=beta&t=-tNun5V2BRDck_2umtf0ZcPnEoaTicnbr3RnWud4Eag",
     companyName: "Adobe",
     datePosted: "1 day ago",
     post: "Product Designer",
@@ -85,7 +85,7 @@ const App = () => {
     location: "Remote"
   },
   {
-    brandLogo: "https://logo.clearbit.com/spotify.com",
+    brandLogo: "https://m.media-amazon.com/images/I/51rttY7a+9L.png",
     companyName: "Spotify",
     datePosted: "5 days ago",
     post: "Mobile App Developer",
@@ -95,7 +95,7 @@ const App = () => {
     location: "Sweden"
   },
   {
-    brandLogo: "https://logo.clearbit.com/uber.com",
+    brandLogo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3n-ItkOkDows6Pk6aAo5MyGO7hEGjrWm9nw&s",
     companyName: "Uber",
     datePosted: "3 days ago",
     post: "Data Engineer",
@@ -109,7 +109,7 @@ const App = () => {
     <div className='parent'>
    {jobs.map(function(elem){
 
-return <Card company={elem.companyName} post={elem.post}/>
+return <Card company={elem.companyName} post={elem.post} tag1={elem.tag1} tag2={elem.tag2} pay={elem.pay}  brandlogo={elem.brandLogo} datePosted={elem.datePosted}/>
 
    })}
     </div>
