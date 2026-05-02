@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const App = () => {
 //make counter increase and decrease by 1 when the button is clicked
 
-const [counter, setCounter] = useState(0);
+const [counter, setCounter] = useState(3);
   return (
     <div>
       <h1>Counter: {counter}</h1>
